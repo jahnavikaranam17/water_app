@@ -1,17 +1,94 @@
-# water_app
+# 💧 AEC Water Monitor App
 
-A new Flutter project.
+A simple and interactive Flutter application to monitor water levels with a clean UI and circular progress indicator.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+* 📊 Real-time water level display (in %)
+* 🎯 Status indicator:
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+  * 🔴 Low
+  * 🟠 Medium
+  * 🟢 High
+* 🔄 Refresh button to simulate water level changes
+* 🎨 Dynamic color changes based on level
+* ⚡ Smooth circular progress animation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Tech Stack
+
+* Flutter
+* Dart
+* Material UI
+
+---
+
+## 📱 Screenshots
+
+(Add your app screenshot here)
+
+---
+
+## ⚙️ How to Run
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/jahnavikaranam17/water_app.git
+   ```
+
+2. Go into project folder:
+
+   ```bash
+   cd water_app
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   flutter pub get
+   ```
+
+4. Run the app:
+
+   ```bash
+   flutter run
+   ```
+
+---
+
+## 🧠 Project Logic
+
+* Water level is stored as an integer value
+* Status is determined using conditions:
+
+  * > 70 → High
+  * > 30 → Medium
+  * else → Low
+* UI updates dynamically using `setState()`
+
+---
+
+## 🎯 Purpose
+
+This project demonstrates:
+
+* Flutter UI design
+* State management (basic)
+* Conditional rendering
+* User interaction
+
+---
+
+## 👩‍💻 Author
+
+**Jahnavi Karanam**
+
+---
+
+## ⭐ GitHub
+
+If you like this project, give it a star ⭐
